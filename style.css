@@ -1,0 +1,76 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(35, 35, 35);
+  }
+  
+  #quiz {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #005a71;
+    border-radius: 5px;
+    margin-top: 60px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+  }
+  
+  #question {
+    margin-bottom: 20px;
+
+  }
+  
+  #options {
+    display: flex;
+    flex-direction: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: rgb(57, 57, 57);
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(35, 35, 35);
+    color: #005a71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+   #myProgress {
+      width: 100%;
+      background-color: rgb(35, 35, 35);
+    }
+    #myBar {
+      width: 10%;
+      height: 30px;
+      background-color: #005a71;
+      text-align: center;
+      line-height: 30px;
+        color: rgb(0, 0, 0);
+    }
+
+
+    label {
+      margin: 10px 0 5px;
+      color: rgb(0, 0, 0);
+  }
+  
+  input {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 5px solid #131313;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: rgb(35, 35, 35);
+    }
+    
